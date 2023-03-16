@@ -1,0 +1,29 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #d9a7c7, #fffcdc);
+    font-family: Open sans, Helvetica, sans-serif;
+    padding: clamp(20px, 5vw, 50px) 10px;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background: #212121;
+    color: #f1f1f1;
+    border-radius: 5px;
+    border: 1px solid #ffffffc3;
+}
+h2{
+    font-size: 30px;
+    font-family: Roboto Light, sans-serif;
+    text-align: center;
+}
+.img{
+    width: 30px;
+}
