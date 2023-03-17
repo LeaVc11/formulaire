@@ -6,8 +6,8 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(to right, #d9a7c7, #fffcdc);
-    font-family: Open sans, Helvetica, sans-serif;
+    background: #f1f1f1;
+    font-family: Roboto, sans-serif;
     padding: clamp(20px, 5vw, 50px) 10px;
 }
 
@@ -30,16 +30,18 @@ h2 {
 .input-group {
     margin-top: 30px;
 }
-label{
+
+label {
     font-size: 20px;
     display: block;
     position: relative;
 }
-input{
+
+input {
     display: block;
     width: 100%;
     font-size: 18px;
-    color:#f1f1f1;
+    color: #f1f1f1;
     padding: 10px 0;
     outline: 0;
     background: transparent;
@@ -47,16 +49,20 @@ input{
     outline: none;
     border-bottom: 1px solid #f1f1f1;
 }
-input:focus{
-    box-shadow:0 1px 0px rgba(255, 255,255,1)
+
+input:focus {
+    box-shadow: 0 1px 0px rgba(255, 255, 255, 1)
 
 }
-input::placeholder{
+
+input::placeholder {
     font-size: 16px;
 }
-.icon-input-container{
+
+.icon-input-container {
     position: relative;
 }
+
 .icon-verif {
     width: 30px;
     position: absolute;
@@ -65,19 +71,22 @@ input::placeholder{
     right: 0;
     display: none;
 }
-.error-msg{
-margin-top: 7px;
+
+.error-msg {
+    margin-top: 7px;
     color: #f75252;
     font-weight: 400;
     display: none;
 }
-.pwd-info{
+
+.pwd-info {
     margin-top: 8px;
     color: #a9a9a9;
     font-weight: 400;
     display: block;
 }
-.lines{
+
+.lines {
     width: 80%;
     display: flex;
     justify-content: center;
@@ -85,27 +94,33 @@ margin-top: 7px;
     margin: 0 auto;
     display: none;
 }
-.l1,.l2,.l3{
+
+.l1, .l2, .l3 {
     height: 5px;
     margin: 15px 5px 20px;
     width: 30%;
     position: relative;
 }
-.l1{
+
+.l1 {
     background-color: #cf5914;
 }
-.l2{
+
+.l2 {
     background-color: #fdeb50;
 }
-.l3{
+
+.l3 {
     background-color: #14e214;
 }
-.lines span{
+
+.lines span {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
     top: 10px;
 }
+
 form button {
     font-size: 20px;
     min-width: 150px;
@@ -120,6 +135,7 @@ form button {
     font-weight: 600;
     cursor: pointer;
 }
-form button:hover{
+
+form button:hover {
     background-color: #e3dfa2;
 }
